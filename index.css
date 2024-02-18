@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap') 
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("assests/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1450px, 120vw);
+    height: 115vh;
+    background-repeat:no-repeat;
+    position: relative;
+}
+
+.main .box {
+    height: 115vh;
+    width: 100%;
+    opacity: 0.54;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 90vw;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    position: relative;
+    z-index: 8;
+}
+.logo{
+    width: 9.5625rem;
+    height: 1.5rem;
+}
+
+nav .button {
+    position: relative;
+    z-index: 8;
+}
+
+.hero {
+    display: flex;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    z-index: 8;
+    position: relative;
+    gap: 18px;
+
+    font-family: "Martel Sans", sans-serif;
+}
+
+.hero > :first-child {
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero > :nth-child(2) {
+    font-weight: 510;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero > :nth-child(3) {
+    font-weight: 510;
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+}
+.separation{
+    height: 8px;
+    position: relative;
+    z-index: 20;
+    bottom: 63px;
+    background-color: rgb(35,35,35);
+}
+.btn-red{
+    padding: 16px 47px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    margin-left: 12px;
+}
+.btn1{
+    width: 1.5rem;
+    height: inherit;
+    margin-left: -3rem;
+    margin-right: 0rem;
+}
+.btn{
+    padding: 2px 150px;
+    padding-top: 20px;
+    padding-left: 12px;
+    padding-bottom: 16.5px;  
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white ;
+    background-color: rgba(23, 23, 23, 0.7); 
+    border: 1px solid white;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    padding: 7px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    padding-bottom: 8px;
+    margin-left: 12px;
+}
+.btn-sm{
+    padding: 7px 30px 4px 8px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px;
+    border: 1px solid white;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 92vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 85px;
+    padding-bottom: 130px;
+}
+.f1{
+    font-size: 3.3rem;
+    font-weight: 1000;
+    text-align: center;
+}
+.f2{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.firstimg img{
+    width: 558px;
+    position: relative;
+    z-index: 10;
+}
+.firstimg video{
+    position: absolute;
+    margin-top: 87px;
+    right: 0;
+    width: 406px;
+    margin-right: 118px;
+}
+.thirdimg img{
+    width: 558px;
+    position: relative;
+    z-index: 10;
+}
+.thirdimg video{
+    position: absolute;
+    margin-top: 48px;
+    right: 0;
+    width: 339px;
+    margin-right: 152px
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+    position: relative;
+    bottom: 78px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 98vw;
+    margin: 11px auto;
+    cursor: pointer;
+}
+.x1{
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+.x2{
+    justify-content: center;
+    display: flex;
+}
+footer{
+    color: white;
+    max-width: 100vw;
+    margin: auto;
+    padding: 35px;
+    position: relative;
+    bottom: 65px;
+}
+footer .q{
+    padding: 34px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.items a{
+    color: white;
+    font-size: 14px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.q a{
+    color: white;
+}
+.q{
+    display: flex;
+    padding: 34px 0;
+}
+.fle{
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.fle1{
+    padding-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+@media screen and (max-width: 767px) {
+    .hero > :first-child {
+        font-size: 24px;
+    }
+
+    .btn {
+        padding: 10px 30px;
+    }
+
+    .image-video-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px; /* Adjusted margin for better alignment */
+    }
+
+    .image-video-container img,
+    .image-video-container video {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .image-video-container video {
+        margin-top: 10px; /* Adjusted margin for better alignment */
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .hero > :first-child {
+        font-size: 36px;
+    }
+
+    .btn {
+        padding: 12px 40px;
+    }
+
+    .image-video-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px; /* Adjusted margin for better alignment */
+    }
+
+    .image-video-container img,
+    .image-video-container video {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .image-video-container video {
+        margin-top: 20px; /* Adjusted margin for better alignment */
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero > :first-child {
+        font-size: 48px;
+    }
+
+    .btn {
+        padding: 16px 47px;
+    }
+
+    .image-video-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px; /* Adjusted margin for better alignment */
+    }
+
+    .image-video-container img,
+    .image-video-container video {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .image-video-container video {
+        margin-top: 30px; /* Adjusted margin for better alignment */
+    }
+}
