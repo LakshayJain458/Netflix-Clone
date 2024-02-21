@@ -1,4 +1,4 @@
-# Netflix Clone - HTML & CSS
+# Netflix UI Clone - HTML & CSS
 
 Welcome to the Netflix Clone repository! This project aims to replicate the user interface of the Netflix website using HTML and CSS. By exploring this repository, you can learn about front-end web development techniques and practices.
 
